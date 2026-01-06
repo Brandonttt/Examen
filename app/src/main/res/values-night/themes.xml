@@ -1,7 +1,20 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.Examen" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema Base Oscuro -->
+    <style name="Base.Theme.Examen" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/ipn_guinda_light</item>
+        <item name="colorPrimaryVariant">@color/ipn_guinda</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/ipn_guinda_light</item>
+        <item name="android:statusBarColor">@color/ipn_guinda_dark</item>
+    </style>
+
+    <style name="Theme.Examen" parent="Base.Theme.Examen" />
+
+    <style name="Theme.Examen.ESCOM" parent="Base.Theme.Examen">
+        <item name="colorPrimary">@color/escom_azul_light</item>
+        <item name="colorPrimaryVariant">@color/escom_azul</item>
+        <item name="colorSecondary">@color/escom_azul_light</item>
+        <item name="android:statusBarColor">@color/escom_azul_dark</item>
     </style>
 </resources>

@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Colores IPN Guinda -->
+    <color name="ipn_guinda">#862041</color>
+    <color name="ipn_guinda_dark">#5C1629</color>
+    <color name="ipn_guinda_light">#A84467</color>
+
+    <!-- Colores ESCOM Azul -->
+    <color name="escom_azul">#003D82</color>
+    <color name="escom_azul_dark">#002855</color>
+    <color name="escom_azul_light">#3366A8</color>
+
+    <!-- Colores base -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 </resources>

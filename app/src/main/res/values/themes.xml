@@ -1,9 +1,24 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.Examen" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema Base Claro -->
+    <style name="Base.Theme.Examen" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/ipn_guinda</item>
+        <item name="colorPrimaryVariant">@color/ipn_guinda_dark</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/ipn_guinda</item>
+        <item name="colorSecondaryVariant">@color/ipn_guinda_dark</item>
+        <item name="android:statusBarColor">@color/ipn_guinda</item>
     </style>
 
+    <!-- Tema Guinda IPN -->
     <style name="Theme.Examen" parent="Base.Theme.Examen" />
+
+    <!-- Tema Azul ESCOM -->
+    <style name="Theme.Examen.ESCOM" parent="Base.Theme.Examen">
+        <item name="colorPrimary">@color/escom_azul</item>
+        <item name="colorPrimaryVariant">@color/escom_azul_dark</item>
+        <item name="colorSecondary">@color/escom_azul</item>
+        <item name="colorSecondaryVariant">@color/escom_azul_dark</item>
+        <item name="android:statusBarColor">@color/escom_azul</item>
+    </style>
 </resources>
